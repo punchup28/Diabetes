@@ -138,6 +138,7 @@ print("Tuned Model Parameters: {}".format(grid2.best_params_))
 # predict input ตรงนี้เด้ออออ 
 pre = grid2.predict([[ 0, 30, 80, 0, 22, 40, 0, 0.627]])
 pre_prob = grid2.predict_proba([[ 0, 30, 80, 0, 22, 40, 0, 0.627]])
+print ("")
 print("Predict input: ", pre)
 print("Predict Probability input: ", pre_prob)
 
